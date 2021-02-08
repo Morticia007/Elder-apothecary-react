@@ -1,14 +1,26 @@
-import React from 'react';
+import React, {Component}from 'react';
 import './App.css';
+import { Navbar, NavbarBrand } from 'reactstrap';
 
-
-function App() {
-  return (
-    <div>
-      <h1>Hello Manny </h1>
-        <p> Building this is definitely going to force me to <strong>read</strong> and learn!!!</p>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return(
+      <div className= 'App'>
+        <Navbar dark color='success'>
+          <div className='container'>
+            <NavbarBrand href='/'>Elder Apothecary <br></br><img 
+            src='/assets/images/ElderApothecary_v1light.png'
+            
+            height='30'
+            width='30'
+            alt='ElderApothecary Logo' />
+            </NavbarBrand>
+          
+          </div>
+        </Navbar>
+      </div>
+    );
+  }
 }
 
 
