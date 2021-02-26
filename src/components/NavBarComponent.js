@@ -8,12 +8,13 @@ class EaNavBar extends Component {
     return(
       <Navbar dark color='success'>
   <div className='container'>
-    <NavbarBrand className='mr-auto' href='/'>
+    <NavbarBrand className='ml-1' href='/'>
       Elder Apothecary <br></br>
       <img
         src='/assets/images/ElderApothecary_v1light.png'
         height='30'
         width='30'
+
         alt='ElderApothecary Logo'
       />
     </NavbarBrand>
